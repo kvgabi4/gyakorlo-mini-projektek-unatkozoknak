@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.white {
+    color:white;
+}
+
+.circle-container {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    height: 120px;
+    width: 120px;
+}
+
+.circles {
+    stroke: black;
+    stroke-width: 1;
+}
+
+.circles:hover {
+    cursor: pointer;
+    stroke: black;
+    stroke-width: 3;
+}
+
+.firstColor {
+    fill: lightgrey;
+    background-color: lightgrey;
+}
+
+.secoundColor {
+    fill:white;
+    background-color: white;
+}
+
+.thirdColor {
+    fill: blue;
+    background-color: blue;
+}
+
+.fourthColor {
+    fill: yellow;
+    background-color: yellow;
+}

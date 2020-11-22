@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+html {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+p {
+    padding: 2rem 0;
+    margin: 0;
+}
+
+.balloon-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+svg {
+    height: 120px;
+    width: 120px;
+}
+
+.pop {
+    font-size: 1.5rem;
+    line-height: 120px;
+    text-align: center;
+    width: 120px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.firstColor {
+    color:  rgb(255,0,0);
+    fill: rgb(255,0,0);
+}
+
+.secoundColor {
+    color: rgb(62, 127, 224);
+    fill: rgb(62, 127, 224);
+}
+
+.thirdColor {
+    color: rgb(255, 210, 0);
+    fill: rgb(255, 210, 0);
+}
+
+.fourthColor {
+    color: rgb(127, 109, 153);
+    fill: rgb(127, 109, 153);
+}
+
+.endOfTheGame {
+    background-color: rgb(255, 210, 0);
+    color:rgb(127, 109, 153);
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    text-align: center;
+}
+
+.endOfTheGame span {
+    color: rgb(255,0,0);
+}
